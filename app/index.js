@@ -1,16 +1,14 @@
 var React = require('react');
-var ReactDOM =require('react-dom');
+var ReactDOM = require('react-dom');
+//var MuiThemeProvider = require('material-ui/styles/MuiThemeProvider');
+var Movie = require('./Movie.js');
 
 
-var HelloWorld = React.createClass({
-  render: function() {
-      return(
-        <div>Hello World</div>
-      )
-  }
-});
+const App = () => (
+  <Movie/>
+);
 
 ReactDOM.render(
-  <HelloWorld/>,
+  <App/>,
   document.getElementById('app')
 )
