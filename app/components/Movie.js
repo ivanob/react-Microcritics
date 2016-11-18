@@ -15,13 +15,13 @@ var Movie = React.createClass({
 					<img src="" alt="movie" width="200" height="400"/>
 				</Row>
 				<Row>
-	          <div className="mui--text-title">Title: </div> Fake name
+	          <div className="mui--text-title">Title: </div> {this.props.info.title}
 				</Row>
 				<Row>
-	          <div className="mui--text-title">Director: </div> Fake name
+	          <div className="mui--text-title">Director: </div> {this.props.info.director}
 				</Row>
 				<Row>
-	          <div className="mui--text-title">Year: </div> 2008
+	          <div className="mui--text-title">Year: </div> {this.props.info.year}
 				</Row>
 			</Panel>
 			</Col>

@@ -1,5 +1,5 @@
 # react-microcritics
+This is a learning purpose project. Probably will never be deploy in production.
 
-### Hints
-Javascript, React, Webpack
-
+### Technologies used
+Javascript, React, Webpack, Redux, MongoDB, 
