@@ -10,7 +10,7 @@ var state ={
 			director: "Steven Spielberg",
 			year:1995
 		},
-		rating:happy,
+		rating:"happy",
 		critics:[
 			{author:"user1",
 			critic:"Dinosaurs are like chicken"
@@ -26,7 +26,7 @@ var PortraitContainer = React.createClass({
 		return (
       <div>
         <Movie info={state.movie}/>
-        <Rating/>
+        <Rating rating={state.rating}/>
 				<Critics critics={state.critics}/>
       </div>
 		)

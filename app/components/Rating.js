@@ -10,7 +10,7 @@ var Rating = React.createClass({
   			<Col md="8">
     			<Panel>
             <Row>
-              <h1>RATING</h1>
+              <h1>RATING: {this.props.rating}</h1>
             </Row>
           </Panel>
         </Col>

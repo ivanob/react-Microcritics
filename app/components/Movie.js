@@ -1,5 +1,4 @@
 var React = require('react');
-var Appbar = require('muicss/lib/react/appbar');
 var Button = require('muicss/lib/react/button');
 var Panel = require('muicss/lib/react/panel');
 var Row = require ('muicss/lib/react/row');
