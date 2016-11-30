@@ -16,7 +16,7 @@ var state ={
 			critic:"Dinosaurs are like chicken"
 			},
 			{author:"user2",
-			critic:"GGRROAAAARRRRRRR"
+			critic:""
 			}
 		]
 }
