@@ -3,6 +3,10 @@ var Movie = require('../components/Movie');
 var Rating = require('../components/Rating');
 var Critics = require('../components/Critics');
 
+const divStyle = {
+  padding: '2%'
+};
+
 var state ={
 		movie:{
 			image: "",
@@ -24,7 +28,7 @@ var state ={
 var PortraitContainer = React.createClass({
 	render: function(){
 		return (
-      <div>
+      <div style={divStyle}>
         <Movie info={state.movie}/>
         <Rating rating={state.rating}/>
 				<Critics critics={state.critics}/>

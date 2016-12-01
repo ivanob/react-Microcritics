@@ -4,12 +4,16 @@ var Panel = require('muicss/lib/react/panel');
 var Row = require ('muicss/lib/react/row');
 var Col = require ('muicss/lib/react/col');
 
+const divStyle = {
+  padding: '10%'
+};
+
 var Movie = React.createClass({
 	render: function(){
 		return(
 			<div>
 			<Col md="4">
-			<Panel>
+			<Panel style={divStyle}>
 				<Row>
 					<img src="" alt="movie" width="200" height="400"/>
 				</Row>

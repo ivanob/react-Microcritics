@@ -18,13 +18,15 @@ var c = [{
 }
 ]
 
+const divStyle = {
+  padding: '5%'
+};
 
 var Critics = React.createClass({
   render: function(){
     return(
-      <div>
 			<Col md="8">
-			<Panel>
+			<Panel style={divStyle}>
 				<Row>
           <h1>CRITICS</h1>
             {c.map(function(value) {
@@ -33,7 +35,6 @@ var Critics = React.createClass({
         </Row>
       </Panel>
       </Col>
-      </div>
     )
   }
 });
